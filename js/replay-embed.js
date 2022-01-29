@@ -12,28 +12,28 @@ function requireScript(url) {
 	document.head.appendChild(scriptEl);
 }
 
-linkStyle('https://neodraft.herokuapp.com/style/font-awesome.css?');
-linkStyle('https://neodraft.herokuapp.com/style/battle.css?a7');
-linkStyle('https://neodraft.herokuapp.com/style/replay.css?a7');
-linkStyle('https://neodraft.herokuapp.com/style/utilichart.css?a7');
+linkStyle('https://neotemp.herokuapp.com/style/font-awesome.css?');
+linkStyle('https://neotemp.herokuapp.com/style/battle.css?a7');
+linkStyle('https://neotemp.herokuapp.com/style/replay.css?a7');
+linkStyle('https://neotemp.herokuapp.com/style/utilichart.css?a7');
 
-requireScript('https://neodraft.herokuapp.com/js/lib/ps-polyfill.js');
-requireScript('https://neodraft.herokuapp.com/config/config.js?a7');
-requireScript('https://neodraft.herokuapp.com/js/lib/jquery-1.11.0.min.js');
-requireScript('https://neodraft.herokuapp.com/js/lib/lodash.compat.js');
-requireScript('https://neodraft.herokuapp.com/js/lib/html-sanitizer-minified.js');
-requireScript('https://neodraft.herokuapp.com/js/battle-sound.js');
-requireScript('https://neodraft.herokuapp.com/js/battledata.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/pokedex-mini.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/pokedex-mini-bw.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/graphics.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/pokedex.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/moves.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/abilities.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/items.js?a7');
-requireScript('https://neodraft.herokuapp.com/data/teambuilder-tables.js?a7');
-requireScript('https://neodraft.herokuapp.com/js/battle-tooltips.js?a7');
-requireScript('https://neodraft.herokuapp.com/js/battle.js?a7');
+requireScript('https://neotemp.herokuapp.com/js/lib/ps-polyfill.js');
+requireScript('https://neotemp.herokuapp.com/config/config.js?a7');
+requireScript('https://neotemp.herokuapp.com/js/lib/jquery-1.11.0.min.js');
+requireScript('https://neotemp.herokuapp.com/js/lib/lodash.compat.js');
+requireScript('https://neotemp.herokuapp.com/js/lib/html-sanitizer-minified.js');
+requireScript('https://neotemp.herokuapp.com/js/battle-sound.js');
+requireScript('https://neotemp.herokuapp.com/js/battledata.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/pokedex-mini.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/pokedex-mini-bw.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/graphics.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/pokedex.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/moves.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/abilities.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/items.js?a7');
+requireScript('https://neotemp.herokuapp.com/data/teambuilder-tables.js?a7');
+requireScript('https://neotemp.herokuapp.com/js/battle-tooltips.js?a7');
+requireScript('https://neotemp.herokuapp.com/js/battle.js?a7');
 
 var Replays = {
 	battle: null,

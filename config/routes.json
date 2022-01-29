@@ -1,6 +1,6 @@
 {
-    "root": "neodrafttest.herokuapp.com",
-    "client": "neodraft.herokuapp.com",
+    "root": "neotempserver.herokuapp.com",
+    "client": "neotemp.herokuapp.com",
     "dex": "dex.pokemonshowdown.com",
     "replays": "replay.pokemonshowdown.com",
     "users": "pokemonshowdown.com/users",

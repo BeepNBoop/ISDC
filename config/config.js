@@ -18,8 +18,8 @@ Config.whitelist = [
 // `defaultserver` specifies the server to use when the domain name in the
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
-	id: 'neodraft',
-	host: 'neodrafttest.herokuapp.com',
+	id: 'neotemp',
+	host: 'neotempserver.herokuapp.com',
 	port: 443,
 	httpport: 8000,
 	altport: 80,
@@ -34,11 +34,11 @@ Config.customcolors = {
     'BeepNBoop': 'Bleh'
 };
 /*** Begin automatically generated configuration ***/
-Config.version = "0.11.2 (50284dd7)";
+Config.version = "0.11.2 (1917fcac)";
 
 Config.routes = {
-	root: 'neodrafttest.herokuapp.com',
-	client: 'neodraft.herokuapp.com',
+	root: 'neotempserver.herokuapp.com',
+	client: 'neotemp.herokuapp.com',
 	dex: 'dex.pokemonshowdown.com',
 	replays: 'replay.pokemonshowdown.com',
 	users: 'pokemonshowdown.com/users',
